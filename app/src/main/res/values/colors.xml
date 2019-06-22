@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#79bfe7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="Spaire">#CDCDB4</color>
+    <color name="btn">#449dd5</color>
+    <color name="green">#5dc534</color>
+    <color name="btn_press">#ff336BA3</color>
+    <color name="type_btn">#e4eef1</color>
+
+
+    <!--深黑-->
+    <color name="deep_black">#282828</color>
+    <!--浅黑-->
+    <color name="shallow_black">#666666</color>
+    <color name="common_white">#FFFFFF</color>
+    <color name="login_btn_text">#FF7219</color>
+    <color name="transport">#80000000</color>
+    <color name="transport_2">#99000000</color>
+    <color name="transport_3">#dd000000</color>
+
+    <color name="line_color">#BDBDBD</color>
+    <color name="line_bg_color">#F0F0F0</color>
+    <color name="split">#cccccc</color>
+    <color name="split_d">#dddddd</color>
+    <color name="dark">#5e5656</color>
+    <color name="group_divide_bg">#f2f2f2</color>
+
+
+    <color name="login_bg_start_1">#FF8519</color>
+    <color name="login_bg_start_2">#EA5038</color>
+    <color name="login_bg_end_1">#FF8519</color>
+    <color name="tablayout_tv_gray">#999999</color>
+    <color name="user_system_tv_gray">#B3B3B3</color>
+    <color name="tablayout_tv">#FF8519</color>
+    <color name="group_tablayout_tv">#303030</color>
+    <color name="shield_tv">#a53c3c</color>
+    <color name="colorblue">#5e99ff</color>
+    <color name="colorBackground">#f1f0f6</color>
+    <color name="colorText">#9b9b9b</color>
+
+    <!--//下拉刷新测试颜色-->
+    <color name="color_blue">#5f93fb</color>
+    <color name="text_gray">#aeb0b4</color>
+    <color name="common_black_777">#777777</color>
+    <color name="common_black_999">#999999</color>
+    <color name="common_black_aaa">#aaaaaa</color>
+    <color name="elegant_bg">#F5F5F5</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="color_232323">#232323</color>
+    <color name="group_red_bg">#EA5038</color>
+    <color name="group_bule_bg">#1086C2</color>
+    <color name="common_yellow">#f9f8f2</color>
+    <color name="common_splash">#e19917</color>
+</resources>

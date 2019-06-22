@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string-array name="spingarr">
+    <item>模糊查询</item>
+    <item>精确查询</item>
+
+</string-array>
+
+    <string-array name="brand">
+        <item>数控机床</item>
+        <item>西门子</item>
+        <item>发那科</item>
+        <item>三菱</item>
+        <item>广州</item>
+        <item>Mazak</item>
+        <item>OKUMA大隈</item>
+    </string-array>
+
+    <string-array name="model">
+        <item>型号</item>
+
+    </string-array>
+
+    <string-array name="mistaketype">
+        <item>故障类型</item>
+
+    </string-array>
+
+</resources>

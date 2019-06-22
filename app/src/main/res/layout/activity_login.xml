@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/signup"/>
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/icon"/>
+
+    <LinearLayout
+            android:id="@+id/sign_in_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/name_text">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="没有账户?"
+                android:textColor="#ababab"
+                android:textSize="16sp"/>
+        <TextView
+                android:id="@+id/text_login_turn_to_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:text="立即注册"
+                android:textColor="#639abf"
+                android:textSize="16sp"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_above="@+id/edit_account"
+            android:text="账号/邮箱"
+            android:textSize="16sp"
+            android:textColor="#ababab"/>
+    <EditText
+            android:id="@+id/edit_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:singleLine="true"
+            android:maxLength="30"
+            android:layout_above="@+id/password_text"
+            android:theme="@style/MyEditText"/>
+
+    <TextView
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_above="@+id/edit_password_layout"
+            android:text="密码"
+            android:textSize="16sp"
+            android:textColor="#ababab"/>
+
+    <RelativeLayout
+            android:id="@+id/edit_password_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_confirm_login">
+        <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:singleLine="true"
+                android:maxLength="16"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditText"/>
+        <ImageButton
+                android:id="@+id/btn_openpwd"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignRight="@+id/edit_password"
+                android:background="@drawable/visible"/>
+    </RelativeLayout>
+
+
+
+    <TextView
+            android:id="@+id/text_confirm_login"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/selector_btn_bg"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="@string/log_in"
+            android:textColor="@android:color/white"/>
+
+    <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="130dp"
+            android:clickable="true"
+            android:text="忘记密码?"
+            android:textColor="#639abf"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="90dp"
+            android:text="Supported by 数控小医生 Team"/>
+
+    <cn.aysst.www.flowerfish.TransitionView
+            android:id="@+id/ani_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:background="#eee"
+              android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal" >
+
+        <LinearLayout
+                android:id="@+id/tab_recommend"
+                android:layout_width="3dp"
+                android:orientation="horizontal"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="推荐"
+                    android:textColor="#008000" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/tab_follow"
+                android:layout_width="3dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+            <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="关注" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/imv_tabline"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="#FF8D42" />
+
+</LinearLayout>

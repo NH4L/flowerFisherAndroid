@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/camera"
+        android:title="照相机"></item>
+    <item android:id="@+id/picture_file"
+        android:title="图片"></item>
+    <item android:id="@+id/audio_recoder"
+        android:title="录音机"></item>
+    <item android:id="@+id/audio_file"
+        android:title="音频"></item>
+    <item android:id="@+id/text_file"
+        android:title="文本文件"></item>
+</menu>
