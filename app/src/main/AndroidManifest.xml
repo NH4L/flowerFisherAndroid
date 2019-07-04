@@ -58,6 +58,8 @@
         <activity android:name="cn.aysst.www.flowerfish.ChangeEmailActivity"/>
         <activity android:name="cn.aysst.www.flowerfish.RegisterActivity"/>
         <activity android:name="cn.aysst.www.flowerfish.ChangePwdOutActivity"/>
+        <activity android:name="cn.aysst.www.flowerfish.FlowerDetailActivity"/>
+        <activity android:name="cn.aysst.www.flowerfish.FishDetailActivity"/>
 
         <provider
                 android:name="android.support.v4.content.FileProvider"

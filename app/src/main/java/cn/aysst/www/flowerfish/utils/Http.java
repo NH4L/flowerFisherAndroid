@@ -7,9 +7,9 @@ public class Http {
 //    public static String BASE_URL = "http://192.168.43.197:8080";
     public static String BASE_URL = "http://www.aysst.cn/cnc";
     public static String FILE_URL = "http://www.aysst.cn/";
-    public static String BASE_IP = "192.168.30.2";
+    public static String BASE_IP = "192.168.43.197";
 //    public static String BASE_IP = "129.211.11.232";
-    public static int BASE_PORT = 11000;
+    public static int BASE_PORT = 11100;
 //    public static String FILESTORAGE_ADDR = "E:/HHU/SecondYear";//存储文件路径位置
     public static String FILESTORAGE_ADDR = "/usr/projects/aysst";//存储文件路径位置
 

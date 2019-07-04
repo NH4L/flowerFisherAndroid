@@ -66,10 +66,6 @@
             android:layout_height="match_parent">
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@color/colorPrimary"/>
-        <LinearLayout
-                android:layout_width="match_parent"
                 android:layout_height="60dp"/>
 
         <ScrollView
